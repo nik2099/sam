@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #000000;
+  --navlink-color: #99999b;
+}
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link {
+  color: var(--navlink-color);
+}
+.active{
+  color: #000;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--primary-color);
+}
+
+/*Profile picture upload start*/
+
+.profile-picture {
+  height: 70px;
+  width: 70px;
+  position: relative;
+  border-radius: 50%;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+#photo {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#selectFile {
+  display: none;
+}
+
+.uploadBtn {
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  right: 0;
+  bottom: 0;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.upload-icon {
+  height: 18px;
+  width: 18px;
+  margin: 6px;
+  padding-bottom: 4px;
+}
+
+/*Profile picture upload end*/

@@ -1,0 +1,72 @@
+/*Form*/
+#kontakt-view{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+    .form{
+        width: 50vw;
+         flex-direction: column;
+    
+    }
+    .form_container{
+        width: 100%;
+        position: relative;
+    }
+    .form_container .w-full{
+        height: 5vw;
+        margin: 0.5vw 0;
+        padding-left: 3.5vw;
+        width: 100%;
+        border-radius:0px;
+        border: solid 1px #E8E6E6;
+    }
+    .form_container input::placeholder{
+        font-size: 1.1vw;
+    }
+    .form_container input.name{
+        width: 100%;
+    }
+    .form_container .btn{
+        width: 100%;
+        margin-top: 1vw;
+        height: 5vw;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1vw;
+        border-radius: 43px;
+    }
+    .check_box{
+        position: relative;
+        text-align: initial;
+        margin: 10px 0;
+    }
+    .check_box input{
+        width: 26px;
+        height: 26px;
+    }
+    .check_box .lbl{
+        position: absolute;
+        left: 37px;
+        top: 3px;
+    }
+    .form-col{
+        position: relative;
+    }
+    .icons{
+        position: absolute;
+        top: 2.2vw;
+        left: 1.1vw;
+        font-size: 2.1vw;
+    }
+    .my-btn{
+        border-radius: 0;
+    }
+    .kont{
+        margin: 2.2vw 0;
+        font-family: 'Open Sans';
+    }

@@ -1,0 +1,61 @@
+#galeriemj{
+    position:absolute;
+    background: transparent;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+/*Gallery Slider CSS*/
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+
+}
+.swiper-wrapper{
+    align-items: center;
+    max-height: 60vh;
+}
+.swiper-slide img {
+    width: 100%;
+}
+.mySwiper_thumb .swiper-slide{
+    width:vw;
+    /*margin: 0 0.5vw;*/
+    transition: 0.3s;
+    max-height: 7vw;
+}
+.mySwiper_thumb{
+    padding-top: 2vw!important;
+}
+.mySwiper_thumb .swiper-slide-thumb-active{
+    margin-top: -1vw!important;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider__inner{
+    width: 40vw;
+    margin: auto;
+}
+.bottom-center {
+    position: fixed;
+    bottom: 0.2vw;
+    width: 40vw;
+}
+.slider__inner .swiper-button-prev{
+    left: 22vw;
+    color: #000;
+}
+.slider__inner .swiper-button-next{
+    right: 22vw;
+    color: #000;
+}
+#gallerymj .swiper-button-next:after, #gallerymj .swiper-button-prev:after{
+    font-size: 2vw;
+}

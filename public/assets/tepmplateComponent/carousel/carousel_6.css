@@ -1,0 +1,79 @@
+.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vertical_product_slider .swiper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vertical_product_slider .left_product_slider .swiper-wrapper{
+    justify-content: center;
+}   
+.vertical_product_slider .title_nd_info{
+    width: 30vw;
+}
+.vertical_product_slider .left_product_slider{
+    position: absolute;
+    left: 4vw;
+    top: 50%;
+    width: 15vw;
+    height: 80vh;
+    transform: translateY(-50%);
+}
+.gallery-slider .swiper {
+    margin-bottom: 20px;
+}
+.vertical_product_slider .mySwiper_image_des{
+    margin-right: -10vw!important;
+}
+.mySwiper_image_des .swiper-wrapper{
+    height: 40vh;
+}
+.vertical_product_slider .secondary_title{
+    font-family: 'Avant Garde Medium BT_0';
+    font-size: 1.2vw;
+    color: gray;
+    margin:0;
+}
+.vertical_product_slider .left_aligned{
+    text-align: left;
+}
+.vertical_product_slider .titleText{
+    margin: 0.7vw 0;
+}
+.mySwiper_image_des .swiper-slide{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vw;
+}
+.mySwiper_image_des .swiper-slide img{
+    object-fit: contain;
+}
+.vertical_product_slider .product_image{
+    display: flex;
+    width: 18vw;
+    height: 100%;
+}
+.left_product_slider .swiper-slide {
+    height: auto!important;
+    width: 15vw;
+    margin: 0.5vw 0;
+}
+.left_product_slider .swiper-pagination {
+    width: 11%!important;
+    left: -65%!important;
+}
+.left_product_slider .swiper-pagination-bullet {
+    margin: 0.5vw!important;
+    background: #000!important;
+    width: 0.7vw!important;
+    height: 0.7vw!important;
+}
+.left_product_slider .swiper{
+    overflow: inherit !important;
+    height:40vw;
+}

@@ -1,0 +1,20 @@
+{
+
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@styles/*": ["styles/*"]
+    }
+  },
+  "include": ["src/**/*", "next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
