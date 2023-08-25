@@ -1,9 +1,5 @@
 {
-	"engines" : { 
-		"npm" : ">=8.0.0 <9.0.0",
-		"node" : ">=16.0.0 <17.0.0",
-		
-	  }
+	
   "name": "smavio-next",
   "private": true,
   "scripts": {
@@ -15,7 +11,7 @@
   },
    
   "dependencies": {
-	"next": "^12.0.7",
+	
     "@alan-ai/alan-sdk-web": "^1.8.43",
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
